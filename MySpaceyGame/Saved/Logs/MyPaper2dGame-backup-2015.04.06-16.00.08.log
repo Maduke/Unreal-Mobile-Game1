@@ -1,0 +1,1461 @@
+﻿Log file open, 04/05/15 13:27:31
+LogInit:Display: Running engine for game: MyPaper2dGame
+LogInit: Version: 4.7.4-2497108+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 31 2015 09:40:25
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.05-20.27.31:874][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.05-20.27.31:927][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.05-20.27.31:941][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.05-20.27.31:953][  0]LogInit: Object subsystem initialized
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.05-20.27.31:955][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.05-20.27.31:956][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.05-20.27.31:956][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.05-20.27.31:973][  0]LogInit: Computer: DAVOPCX64
+[2015.04.05-20.27.31:973][  0]LogInit: User: David
+[2015.04.05-20.27.31:973][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.05-20.27.31:973][  0]LogInit: High frequency timer resolution =3.418056 MHz
+[2015.04.05-20.27.31:974][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.05-20.27.31:974][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.05-20.27.31:974][  0]LogMemory: Process Physical Memory: 48.23 MB used, 48.23 MB peak
+[2015.04.05-20.27.31:974][  0]LogMemory: Process Virtual Memory: 26.46 MB used, 26.46 MB peak
+[2015.04.05-20.27.31:974][  0]LogMemory: Physical Memory: 3431.15 MB used, 8073.93 MB total
+[2015.04.05-20.27.31:974][  0]LogMemory: Virtual Memory: 279.64 MB used, 8388608.00 MB total
+[2015.04.05-20.27.31:997][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.04.05-20.27.31:997][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 3780MB of shared system memory, 2 output[s]
+[2015.04.05-20.27.32:000][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.04.05-20.27.32:000][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.04.05-20.27.32:000][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.05-20.27.32:006][  0]LogRHI: Texture pool is 702 MB (70% of 1003 MB)
+[2015.04.05-20.27.32:015][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.05-20.27.32:073][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.05-20.27.32:142][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.05-20.27.32:142][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.05-20.27.32:238][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.05-20.27.34:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.05-20.27.35:582][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.05-20.27.35:657][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.05-20.27.35:750][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.05-20.27.35:750][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.05-20.27.35:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.05-20.27.35:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.05-20.27.35:885][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.05-20.27.35:898][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.05-20.27.36:328][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.05-20.27.36:328][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.05-20.27.36:805][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.05-20.27.36:894][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.05-20.27.37:720][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.05-20.27.37:933][  0]SourceControl: Info Source control is disabled
+[2015.04.05-20.27.37:933][  0]SourceControl: Info Source control is disabled
+[2015.04.05-20.27.37:933][  0]SourceControl: Info Source control is disabled
+[2015.04.05-20.27.37:934][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.05-20.27.37:934][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.05-20.27.37:942][  0]SourceControl: Info Source control is disabled
+[2015.04.05-20.27.38:150][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.05-20.27.38:150][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.05-20.27.38:249][  0]LogEngine: Initializing Engine...
+[2015.04.05-20.27.40:505][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.05-20.27.40:529][  0]LogInit: FAudioDevice initialized.
+[2015.04.05-20.27.40:576][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.05-20.27.40:655][  0]LogDerivedDataCache: Saved boot cache 0.08s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.05-20.27.40:665][  0]LogInit: Texture streaming: Enabled
+[2015.04.05-20.27.40:799][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.05-20.27.40:799][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.05-20.27.40:799][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.05-20.27.40:799][  0]LogAnalytics: SetUserId 63bad7584199a80b18f5d19af3640327|847b49c4ca63452480b7439378717c51|d31b456e-061b-4b71-818e-0d4e346df735
+[2015.04.05-20.27.40:799][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.05-20.27.40:826][  0]LogInit: Transaction tracking system initialized
+[2015.04.05-20.27.41:048][  0]BlueprintLog: New page: Editor Load
+[2015.04.05-20.27.41:085][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.04.05-20.27.41:085][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.05-20.27.41:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.05-20.27.42:149][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.05-20.27.42:415][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.05-20.27.42:464][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.05-20.27.42:464][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.05-20.27.42:469][  0]LogConsoleResponse:Display: 
+[2015.04.05-20.27.42:647][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.05-20.27.42:812][  0]SourceControl: Info Source control is disabled
+[2015.04.05-20.27.42:812][  0]Cmd: MAP LOAD FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.05-20.27.42:852][  0]LightingResults: New page: Lighting Build
+[2015.04.05-20.27.42:864][  0]MapCheck: New page: Map Check
+[2015.04.05-20.27.42:864][  0]LightingResults: New page: Lighting Build
+[2015.04.05-20.27.42:877][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015CB4C20
+[2015.04.05-20.27.43:334][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.05-20.27.43:334][  0]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-20.27.43:335][  0]Cmd: MAP CHECKDEP
+[2015.04.05-20.27.43:335][  0]MapCheck: New page: My2DMap - Apr 5, 2015, 6:27:43 AM
+[2015.04.05-20.27.43:415][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.368ms to complete.
+[2015.04.05-20.27.43:415][  0]LogFileHelpers: Loading map 'My2DMap' took 0.603
+[2015.04.05-20.27.43:967][  0]LogCollectionManager: Loaded 0 collections in 0.002279 seconds
+[2015.04.05-20.27.43:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1696 classes and 261 folders.
+[2015.04.05-20.27.44:090][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2015.04.05-20.27.44:542][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.05-20.27.44:550][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.05-20.27.44:562][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.05-20.27.44:619][  0]LogLoad: Full Startup: 15.38 seconds (BP compile: 0.00 seconds)
+[2015.04.05-20.27.44:644][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.05-20.27.45:104][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:2).
+[2015.04.05-20.27.45:531][  5]LogAssetRegistry: Asset discovery search completed in 4.4564 seconds
+[2015.04.05-20.35.55:057][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-20.43.33:816][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-20.43.40:699][ 31]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0097 seconds. Added 2 classes and 2 folders.
+[2015.04.05-20.43.40:996][ 31]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-20.43.40:996][ 31]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-20.43.50:589][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.013
+[2015.04.05-20.43.50:661][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Flooppp] ([1] browsable assets)...
+[2015.04.05-20.43.50:736][850]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Blueprints/Flooppp.Flooppp]
+[2015.04.05-20.43.50:736][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Flooppp]
+[2015.04.05-20.43.50:911][850]LogSavePackage: Save=167.295685ms
+[2015.04.05-20.43.50:912][850]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp_Auto183684D9C47F9392C2C8BE282AF7656C5.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Blueprints/Flooppp_Auto1.uasset'
+[2015.04.05-20.43.50:937][850]LogFileHelpers: Auto-saving content packages took 0.348
+[2015.04.05-20.44.20:834][444]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-20.44.39:542][801]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.44.39:652][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.05-20.44.39:727][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.05-20.44.39:727][801]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.05-20.44.39:728][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.05-20.44.39:728][801]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.05-20.44.39:731][801]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.44.39:738][801]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.44.42:194][898]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.05-20.44.42:194][898]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.05-20.44.42:194][898]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-20.47.31:217][319]LogMaterial:Warning: Material /Game/Blueprints/FloopMaterial.FloopMaterial needed to have new flag set bUsedWithParticleSprites !
+[2015.04.05-20.47.31:234][319]LogMaterial:Warning: Material /Engine/Transient.FloopMaterial needed to have new flag set bUsedWithParticleSprites !
+[2015.04.05-20.47.31:236][319]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.47.31:241][319]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.47.31:242][319]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.47.31:264][319]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.47.32:278][421]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.05-20.47.32:278][421]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.05-20.47.32:278][421]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-20.51.12:272][230]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.05-20.51.12:289][230]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.05-20.51.12:289][230]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.05-20.51.12:290][230]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.05-20.51.12:291][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionParticleColor'MaterialGraphNode_3.MaterialExpressionParticleColor_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2015.04.05-20.51.12:291][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_2.MaterialExpressionMaterialFunctionCall_0')'
+[2015.04.05-20.51.12:292][230]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:302][230]LogLinker: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:302][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'/Engine/Transient.mat_sparks''
+[2015.04.05-20.51.12:302][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_3.EdGraphPin_4268''
+[2015.04.05-20.51.12:303][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_2.EdGraphPin_4267''
+[2015.04.05-20.51.12:303][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_Root_0.EdGraphPin_4235''
+[2015.04.05-20.51.12:304][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionParticleColor'MaterialGraphNode_3.MaterialExpressionParticleColor_0',OutputIndex=4,Mask=1,MaskA=1)'
+[2015.04.05-20.51.12:304][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_2.MaterialExpressionMaterialFunctionCall_0')'
+[2015.04.05-20.51.12:304][230]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:304][230]LogLinker: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:304][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'/Engine/Transient.mat_sparks''
+[2015.04.05-20.51.12:304][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_3.EdGraphPin_4272''
+[2015.04.05-20.51.12:305][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_2.EdGraphPin_4267''
+[2015.04.05-20.51.12:305][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_Root_0.EdGraphPin_4236''
+[2015.04.05-20.51.12:342][230]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:342][230]LogLinker: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:342][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'/Engine/Transient.mat_sparks''
+[2015.04.05-20.51.12:344][230]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:345][230]LogLinker: Can't find file '/Engine/Transient'
+[2015.04.05-20.51.12:345][230]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'/Engine/Transient.mat_sparks''
+[2015.04.05-20.51.12:368][230]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.12:373][230]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.13:480][315]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.05-20.51.13:480][315]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.05-20.51.13:480][315]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-20.51.18:544][864]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.18:560][864]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.18:565][864]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.20:402][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.05-20.51.20:402][  4]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.05-20.51.20:402][  4]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.05-20.51.20:402][  4]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.05-20.51.32:387][478]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.32:408][478]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.32:411][478]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.33:355][563]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2015.04.05-20.51.33:355][563]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.05-20.51.33:355][563]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-20.51.36:518][887]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.36:521][887]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.37:551][955]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-20.51.37:551][955]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-20.51.37:551][955]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-20.51.38:094][  9]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.38:097][  9]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.39:216][ 90]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-20.51.39:216][ 90]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-20.51.39:216][ 90]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-20.51.55:392][551]LogMaterialEditor: Saving and Compiling material FloopMaterial
+[2015.04.05-20.51.56:801][551]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.56:810][551]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.56:871][551]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.56:901][551]LogMaterial: Missing cached shader map for material FloopMaterial, compiling. 
+[2015.04.05-20.51.56:911][551]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-20.51.56:911][551]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-20.51.56:913][551]LogMaterial: 0.001405 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-20.51.59:404][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FloopMaterial" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/FloopMaterial.uasset" SILENT=true
+[2015.04.05-20.51.59:726][551]LogSavePackage: Save=319.772980ms
+[2015.04.05-20.51.59:726][551]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/FloopMaterial64816D564C10277A61FADF99CDECCD0F.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/FloopMaterial.uasset'
+[2015.04.05-20.51.59:732][551]MaterialEditorStats: Info Base pass shader without light map: 37 instructions
+[2015.04.05-20.51.59:732][551]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-20.51.59:732][551]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.04.05-20.53.50:967][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DF42D40
+[2015.04.05-20.53.51:090][538]LogSavePackage: Save=15.319819ms
+[2015.04.05-20.53.51:090][538]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap_Auto28585DB2544F4449534DB20BBD586D101.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/My2DMap_Auto2.umap'
+[2015.04.05-20.53.51:097][538]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.139
+[2015.04.05-20.53.51:097][538]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2015.04.05-20.53.51:160][538]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Flooppp] ([1] browsable assets)...
+[2015.04.05-20.53.51:173][538]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Blueprints/Flooppp.Flooppp]
+[2015.04.05-20.53.51:173][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Flooppp]
+[2015.04.05-20.53.51:328][538]LogSavePackage: Save=140.221512ms
+[2015.04.05-20.53.51:329][538]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp_Auto2376978134CB27BA9DC9B7FB412E9613C.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Blueprints/Flooppp_Auto2.uasset'
+[2015.04.05-20.53.51:332][538]LogFileHelpers: Auto-saving content packages took 0.235
+[2015.04.05-20.54.05:913][754]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-20.54.05:914][754]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 6:54:05 AM)
+[2015.04.05-20.54.05:917][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001872s)
+[2015.04.05-20.54.05:918][754]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2015.04.05-20.54.05:918][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.002774s)
+[2015.04.05-20.54.07:469][754]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-20.54.07:472][754]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-20.54.07:474][754]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-13.54.07
+[2015.04.05-20.54.07:475][754]LogWorld: Bringing up level for play took: 0.002292
+[2015.04.05-20.54.07:492][754]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 2.015
+[2015.04.05-20.54.17:535][892]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D039120
+[2015.04.05-20.55.17:274][600]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-20.55.17:274][600]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 6:55:17 AM)
+[2015.04.05-20.55.17:275][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000736s)
+[2015.04.05-20.55.17:276][600]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2015.04.05-20.55.17:276][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001431s)
+[2015.04.05-20.55.17:305][600]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-20.55.17:307][600]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-20.55.17:309][600]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-13.55.17
+[2015.04.05-20.55.17:310][600]LogWorld: Bringing up level for play took: 0.002315
+[2015.04.05-20.55.17:313][600]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.166
+[2015.04.05-20.55.45:897][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D56FF60
+[2015.04.05-20.55.48:615][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset" SILENT=true
+[2015.04.05-20.55.48:653][174]LogSavePackage: Save=21.832586ms
+[2015.04.05-20.55.48:653][174]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp5E1A2C58452C80E06FB92FB8CF07103B.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset'
+[2015.04.05-20.55.50:263][326]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-20.55.50:263][326]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 6:55:50 AM)
+[2015.04.05-20.55.50:264][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000683s)
+[2015.04.05-20.55.50:264][326]LogPlayLevel: PIE: World Init took: (0.000431s)
+[2015.04.05-20.55.50:265][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001252s)
+[2015.04.05-20.55.50:305][326]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-20.55.50:309][326]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-20.55.50:313][326]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-13.55.50
+[2015.04.05-20.55.50:314][326]LogWorld: Bringing up level for play took: 0.004778
+[2015.04.05-20.55.50:319][326]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.84
+[2015.04.05-20.56.13:822][ 22]LogCharacterMovement: MyCharacter_C_2 is stuck and failed to move!
+[2015.04.05-20.56.34:929][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F18220
+[2015.04.05-20.59.57:545][175]LogCascade: Non-seeded module ParticleModuleSizeScaleBySpeed
+[2015.04.05-21.00.24:085][190]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.00.24:085][190]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:00:24 AM)
+[2015.04.05-21.00.24:086][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000820s)
+[2015.04.05-21.00.24:087][190]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2015.04.05-21.00.24:087][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.002107s)
+[2015.04.05-21.00.24:126][190]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.00.24:128][190]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.00.24:130][190]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.00.24
+[2015.04.05-21.00.24:131][190]LogWorld: Bringing up level for play took: 0.002305
+[2015.04.05-21.00.24:133][190]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.648
+[2015.04.05-21.00.41:056][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024298C20
+[2015.04.05-21.01.12:739][704]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.01.12:739][704]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:01:12 AM)
+[2015.04.05-21.01.12:740][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000724s)
+[2015.04.05-21.01.12:740][704]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2015.04.05-21.01.12:740][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001316s)
+[2015.04.05-21.01.12:775][704]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.01.12:777][704]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.01.12:779][704]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.01.12
+[2015.04.05-21.01.12:780][704]LogWorld: Bringing up level for play took: 0.002334
+[2015.04.05-21.01.12:782][704]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.704
+[2015.04.05-21.01.53:589][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F652B60
+[2015.04.05-21.02.21:868][443]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.02.21:868][443]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:02:21 AM)
+[2015.04.05-21.02.21:869][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000720s)
+[2015.04.05-21.02.21:870][443]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2015.04.05-21.02.21:870][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001341s)
+[2015.04.05-21.02.21:901][443]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.02.21:903][443]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.02.21:905][443]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.02.21
+[2015.04.05-21.02.21:906][443]LogWorld: Bringing up level for play took: 0.002229
+[2015.04.05-21.02.21:908][443]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.421
+[2015.04.05-21.02.37:022][185]LogCharacterMovement: MyCharacter_C_5 is stuck and failed to move!
+[2015.04.05-21.02.46:684][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F7F42C0
+[2015.04.05-21.03.17:007][548]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.03.17:008][548]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:03:17 AM)
+[2015.04.05-21.03.17:009][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000744s)
+[2015.04.05-21.03.17:009][548]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.04.05-21.03.17:009][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001366s)
+[2015.04.05-21.03.17:041][548]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.03.17:043][548]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.03.17:045][548]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.03.17
+[2015.04.05-21.03.17:046][548]LogWorld: Bringing up level for play took: 0.002112
+[2015.04.05-21.03.17:048][548]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.44
+[2015.04.05-21.03.28:110][789]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.04.05-21.03.39:903][120]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.04.05-21.05.13:550][963]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FCB5800
+[2015.04.05-21.05.15:404][131]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.05.15:405][131]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:05:15 AM)
+[2015.04.05-21.05.15:407][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2015.04.05-21.05.15:408][131]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.04.05-21.05.15:408][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.002332s)
+[2015.04.05-21.05.15:440][131]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.05.15:442][131]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.05.15:444][131]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.05.15
+[2015.04.05-21.05.15:445][131]LogWorld: Bringing up level for play took: 0.002374
+[2015.04.05-21.05.15:447][131]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.044
+[2015.04.05-21.06.47:492][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E1B2660
+[2015.04.05-21.07.49:510][793]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.07.49:510][793]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:07:49 AM)
+[2015.04.05-21.07.49:511][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000770s)
+[2015.04.05-21.07.49:511][793]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2015.04.05-21.07.49:511][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001444s)
+[2015.04.05-21.07.49:545][793]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.07.49:547][793]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.07.49:549][793]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.07.49
+[2015.04.05-21.07.49:549][793]LogWorld: Bringing up level for play took: 0.002311
+[2015.04.05-21.07.49:552][793]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.059
+[2015.04.05-21.07.58:732][829]LogCharacterMovement: MyCharacter_C_8 is stuck and failed to move!
+[2015.04.05-21.08.01:899][201]LogCharacterMovement: MyCharacter_C_8 is stuck and failed to move!
+[2015.04.05-21.08.33:973][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DF409A0
+[2015.04.05-21.10.52:166][342]LogSavePackage: Save=16.997087ms
+[2015.04.05-21.10.52:166][342]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap_Auto30FEB66A6431F969FDFAAA8BCADE16013.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/My2DMap_Auto3.umap'
+[2015.04.05-21.10.52:172][342]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.177
+[2015.04.05-21.10.52:172][342]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2015.04.05-21.10.52:230][342]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Flooppp] ([1] browsable assets)...
+[2015.04.05-21.10.52:251][342]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Blueprints/Flooppp.Flooppp]
+[2015.04.05-21.10.52:251][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Flooppp]
+[2015.04.05-21.10.52:381][342]LogSavePackage: Save=115.273125ms
+[2015.04.05-21.10.52:384][342]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp_Auto3E718DDC3458FB611847CA2AF2F5CCFB5.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Blueprints/Flooppp_Auto3.uasset'
+[2015.04.05-21.10.52:391][342]LogFileHelpers: Auto-saving content packages took 0.219
+[2015.04.05-21.10.57:765][359]LogCascade: Non-seeded module ParticleModuleCollision
+[2015.04.05-21.13.23:775][636]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-21.13.26:116][833]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.13.26:117][833]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:13:26 AM)
+[2015.04.05-21.13.26:118][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000791s)
+[2015.04.05-21.13.26:119][833]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2015.04.05-21.13.26:119][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001435s)
+[2015.04.05-21.13.26:152][833]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.13.26:154][833]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.13.26:156][833]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.13.26
+[2015.04.05-21.13.26:156][833]LogWorld: Bringing up level for play took: 0.002246
+[2015.04.05-21.13.26:159][833]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.659
+[2015.04.05-21.13.36:365][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D00B7E0
+[2015.04.05-21.14.42:993][731]LogCascade: Non-seeded module ParticleModuleCollision
+[2015.04.05-21.15.09:937][905]LogCascade: Non-seeded module ParticleModuleCollision
+[2015.04.05-21.15.52:130][940]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-21.16.31:358][617]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite2)
+[2015.04.05-21.16.34:545][906]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-21.16.41:266][534]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.16.41:266][534]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:16:41 AM)
+[2015.04.05-21.16.41:267][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000758s)
+[2015.04.05-21.16.41:267][534]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2015.04.05-21.16.41:267][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001395s)
+[2015.04.05-21.16.41:308][534]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.16.41:312][534]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.16.41:316][534]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.16.41
+[2015.04.05-21.16.41:317][534]LogWorld: Bringing up level for play took: 0.004709
+[2015.04.05-21.16.41:322][534]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.181
+[2015.04.05-21.17.47:801][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D00AC00
+[2015.04.05-21.17.49:010][472]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.17.49:010][472]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:17:49 AM)
+[2015.04.05-21.17.49:011][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000690s)
+[2015.04.05-21.17.49:012][472]LogPlayLevel: PIE: World Init took: (0.000446s)
+[2015.04.05-21.17.49:012][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001264s)
+[2015.04.05-21.17.49:044][472]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.17.49:046][472]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.17.49:048][472]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.17.49
+[2015.04.05-21.17.49:049][472]LogWorld: Bringing up level for play took: 0.002116
+[2015.04.05-21.17.49:051][472]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.454
+[2015.04.05-21.17.52:179][836]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.04.05-21.18.12:427][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D008CC0
+[2015.04.05-21.18.30:332][170]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.18.30:333][170]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:18:30 AM)
+[2015.04.05-21.18.30:334][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000725s)
+[2015.04.05-21.18.30:336][170]LogPlayLevel: PIE: World Init took: (0.002036s)
+[2015.04.05-21.18.30:336][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003209s)
+[2015.04.05-21.18.30:374][170]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.18.30:376][170]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.18.30:378][170]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.18.30
+[2015.04.05-21.18.30:378][170]LogWorld: Bringing up level for play took: 0.002285
+[2015.04.05-21.18.30:381][170]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.876
+[2015.04.05-21.18.35:421][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C17E20
+[2015.04.05-21.19.10:731][703]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite2)
+[2015.04.05-21.19.18:334][268]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.19.18:334][268]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:19:18 AM)
+[2015.04.05-21.19.18:335][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000738s)
+[2015.04.05-21.19.18:335][268]LogPlayLevel: PIE: World Init took: (0.000448s)
+[2015.04.05-21.19.18:335][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001321s)
+[2015.04.05-21.19.18:365][268]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.19.18:367][268]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.19.18:369][268]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.19.18
+[2015.04.05-21.19.18:369][268]LogWorld: Bringing up level for play took: 0.002103
+[2015.04.05-21.19.18:371][268]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.865
+[2015.04.05-21.19.22:591][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DF434C0
+[2015.04.05-21.19.32:810][656]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-21.19.36:602][961]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.19.36:602][961]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:19:36 AM)
+[2015.04.05-21.19.36:603][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000689s)
+[2015.04.05-21.19.36:603][961]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2015.04.05-21.19.36:603][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001270s)
+[2015.04.05-21.19.36:635][961]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.19.36:637][961]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.19.36:639][961]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.19.36
+[2015.04.05-21.19.36:640][961]LogWorld: Bringing up level for play took: 0.002109
+[2015.04.05-21.19.36:642][961]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.864
+[2015.04.05-21.19.38:412][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024F4DD00
+[2015.04.05-21.19.39:659][265]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite2)
+[2015.04.05-21.20.18:980][739]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.20.18:980][739]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:20:18 AM)
+[2015.04.05-21.20.18:981][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000732s)
+[2015.04.05-21.20.18:981][739]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2015.04.05-21.20.18:981][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001325s)
+[2015.04.05-21.20.19:011][739]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.20.19:013][739]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.20.19:015][739]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.20.19
+[2015.04.05-21.20.19:015][739]LogWorld: Bringing up level for play took: 0.002113
+[2015.04.05-21.20.19:017][739]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.489
+[2015.04.05-21.20.21:878][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002602ECA0
+[2015.04.05-21.20.43:945][951]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.20.43:945][951]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:20:43 AM)
+[2015.04.05-21.20.43:946][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000677s)
+[2015.04.05-21.20.43:947][951]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2015.04.05-21.20.43:947][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001275s)
+[2015.04.05-21.20.43:978][951]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.20.43:979][951]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.20.43:981][951]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.20.43
+[2015.04.05-21.20.43:982][951]LogWorld: Bringing up level for play took: 0.002129
+[2015.04.05-21.20.43:984][951]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.476
+[2015.04.05-21.20.46:582][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E164900
+[2015.04.05-21.20.49:729][501]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.20.49:729][501]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:20:49 AM)
+[2015.04.05-21.20.49:730][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000697s)
+[2015.04.05-21.20.49:731][501]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2015.04.05-21.20.49:731][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001250s)
+[2015.04.05-21.20.49:761][501]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.20.49:763][501]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.20.49:765][501]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.20.49
+[2015.04.05-21.20.49:765][501]LogWorld: Bringing up level for play took: 0.002100
+[2015.04.05-21.20.49:767][501]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.26
+[2015.04.05-21.20.54:212][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DDF91C0
+[2015.04.05-21.21.03:469][828]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.21.03:470][828]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:21:03 AM)
+[2015.04.05-21.21.03:471][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001089s)
+[2015.04.05-21.21.03:472][828]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2015.04.05-21.21.03:472][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001746s)
+[2015.04.05-21.21.03:505][828]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.21.03:507][828]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.21.03:508][828]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.21.03
+[2015.04.05-21.21.03:509][828]LogWorld: Bringing up level for play took: 0.002115
+[2015.04.05-21.21.03:511][828]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.003
+[2015.04.05-21.21.08:674][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C160C0
+[2015.04.05-21.21.15:705][969]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.05-21.21.17:476][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.04.05-21.21.49:374][808]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite)
+[2015.04.05-21.21.50:983][940]Cmd: DELETE
+[2015.04.05-21.21.50:983][940]Cmd: ACTOR DELETE
+[2015.04.05-21.21.51:137][940]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2015.04.05-21.21.51:157][940]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.04.05-21.21.57:965][538]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.21.57:965][538]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:21:57 AM)
+[2015.04.05-21.21.57:966][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000787s)
+[2015.04.05-21.21.57:966][538]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2015.04.05-21.21.57:966][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001369s)
+[2015.04.05-21.21.57:996][538]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.21.57:998][538]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.21.58:000][538]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.21.58
+[2015.04.05-21.21.58:001][538]LogWorld: Bringing up level for play took: 0.002401
+[2015.04.05-21.21.58:003][538]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.494
+[2015.04.05-21.22.10:119][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEF7B00
+[2015.04.05-21.22.10:985][999]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.22.10:986][999]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:22:10 AM)
+[2015.04.05-21.22.10:988][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000770s)
+[2015.04.05-21.22.10:988][999]LogPlayLevel: PIE: World Init took: (0.000424s)
+[2015.04.05-21.22.10:988][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001317s)
+[2015.04.05-21.22.11:021][999]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.22.11:023][999]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.22.11:025][999]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.22.11
+[2015.04.05-21.22.11:025][999]LogWorld: Bringing up level for play took: 0.002520
+[2015.04.05-21.22.11:028][999]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.482
+[2015.04.05-21.22.40:593][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECBB1A0
+[2015.04.05-21.22.52:143][448]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite3)
+[2015.04.05-21.22.55:421][722]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-21.23.41:042][497]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.23.41:042][497]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:23:41 AM)
+[2015.04.05-21.23.41:043][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000832s)
+[2015.04.05-21.23.41:044][497]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2015.04.05-21.23.41:044][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001478s)
+[2015.04.05-21.23.41:078][497]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.23.41:079][497]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.23.41:082][497]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.23.41
+[2015.04.05-21.23.41:082][497]LogWorld: Bringing up level for play took: 0.002344
+[2015.04.05-21.23.41:084][497]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.426
+[2015.04.05-21.23.45:055][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEF76A0
+[2015.04.05-21.23.47:871][156]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.23.47:871][156]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:23:47 AM)
+[2015.04.05-21.23.47:872][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000746s)
+[2015.04.05-21.23.47:873][156]LogPlayLevel: PIE: World Init took: (0.000431s)
+[2015.04.05-21.23.47:873][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001300s)
+[2015.04.05-21.23.47:907][156]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.23.47:909][156]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.23.47:912][156]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.23.47
+[2015.04.05-21.23.47:912][156]LogWorld: Bringing up level for play took: 0.002437
+[2015.04.05-21.23.47:914][156]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.404
+[2015.04.05-21.23.53:979][857]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.53:987][858]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.53:997][859]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:006][860]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:015][861]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:026][862]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:033][863]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:043][864]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:050][865]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:060][866]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:067][867]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:077][868]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:084][869]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:094][870]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:101][871]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:111][872]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:118][873]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:128][874]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:136][875]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:144][876]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.54:153][877]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:520][153]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:530][154]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:537][155]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:548][156]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:556][157]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:565][158]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:573][159]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:583][160]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:592][161]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:601][162]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:609][163]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:618][164]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:628][165]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:635][166]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:645][167]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:652][168]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:662][169]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:669][170]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:679][171]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:686][172]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:696][173]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:703][174]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:713][175]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:720][176]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:730][177]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:737][178]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:748][179]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:755][180]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:764][181]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:772][182]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:781][183]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:790][184]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:800][185]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:808][186]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:818][187]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:826][188]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:835][189]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:846][190]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:853][191]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:863][192]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:870][193]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:881][194]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:888][195]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:898][196]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:904][197]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:915][198]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:922][199]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:932][200]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:940][201]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:949][202]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:958][203]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:966][204]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:975][205]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:984][206]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.56:992][207]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:003][208]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:013][209]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:020][210]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:030][211]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:037][212]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:047][213]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:054][214]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:065][215]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:072][216]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:081][217]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:089][218]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:099][219]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:107][220]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:117][221]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:125][222]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:135][223]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:143][224]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.23.57:152][225]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.07:784][444]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.07:794][445]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.07:802][446]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:096][480]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:105][481]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:114][482]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:125][483]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:132][484]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:608][538]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:616][539]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:625][540]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:633][541]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:642][542]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:651][543]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.08:660][544]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:075][591]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:083][592]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:093][593]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:101][594]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:741][666]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:748][667]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:757][668]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:765][669]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:776][670]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.09:783][671]LogCharacterMovement: MyCharacter_C_22 is stuck and failed to move!
+[2015.04.05-21.24.56:801][113]LogSelection:Warning: PIE object was selected: "Emitter /Game/UEDPIE_0_My2DMap.My2DMap:PersistentLevel.Flooppp_2"
+[2015.04.05-21.25.40:201][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002429B1A0
+[2015.04.05-21.25.44:637][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.05-21.25.44:680][ 36]LogSavePackage: Save=16.285572ms
+[2015.04.05-21.25.44:680][ 36]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap089D8F674F03B364EC93E9AF9C97CF49.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap'
+[2015.04.05-21.25.44:713][ 36]LogFileHelpers: Saving map 'My2DMap' took 0.191
+[2015.04.05-21.25.44:724][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset" SILENT=true
+[2015.04.05-21.25.44:757][ 36]LogSavePackage: Save=20.416868ms
+[2015.04.05-21.25.44:757][ 36]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp9588D79E4F3D89FA29A43784643E003E.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset'
+[2015.04.05-21.25.53:739][814]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-21.25.56:636][ 52]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.05-21.25.58:722][225]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.05-21.26.07:963][ 55]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-21.26.15:468][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset" SILENT=true
+[2015.04.05-21.26.15:493][691]LogSavePackage: Save=23.514244ms
+[2015.04.05-21.26.15:493][691]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/FloopppC3BAF0C54E37FB697B0381A47F06588C.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset'
+[2015.04.05-21.26.15:499][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset" SILENT=true
+[2015.04.05-21.26.15:511][691]LogSavePackage: Save=2.964843ms
+[2015.04.05-21.26.15:511][691]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/FloopppDBF3B0D5420A7D5721FB0AB20100C989.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/Flooppp.uasset'
+[2015.04.05-21.26.15:535][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/FloopMaterial" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/FloopMaterial.uasset" SILENT=true
+[2015.04.05-21.26.15:831][691]LogSavePackage: Save=294.769897ms
+[2015.04.05-21.26.15:831][691]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/FloopMaterialC5F042794B17CE59BC3E938DE1F73085.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/FloopMaterial.uasset'
+[2015.04.05-21.26.16:887][772]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-21.26.53:657][600]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.26.53:657][600]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:26:53 AM)
+[2015.04.05-21.26.53:658][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000800s)
+[2015.04.05-21.26.53:659][600]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2015.04.05-21.26.53:659][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001409s)
+[2015.04.05-21.26.53:693][600]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.26.53:697][600]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.26.53:702][600]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.26.53
+[2015.04.05-21.26.53:703][600]LogWorld: Bringing up level for play took: 0.005195
+[2015.04.05-21.26.53:708][600]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.193
+[2015.04.05-21.27.08:501][323]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015948D60
+[2015.04.05-21.27.12:707][776]LogCascade: Non-seeded module ParticleModuleOrbit
+[2015.04.05-21.27.18:107][412]LogCascade: Quitting Cascade. FXSystem=0x000000000D6A4220
+[2015.04.05-21.27.28:679][309]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-21.27.28:679][309]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-21.29.45:345][518]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.29.45:345][518]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:29:45 AM)
+[2015.04.05-21.29.45:346][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000850s)
+[2015.04.05-21.29.45:347][518]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2015.04.05-21.29.45:347][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001477s)
+[2015.04.05-21.29.45:384][518]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.29.45:387][518]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.29.45:393][518]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.29.45
+[2015.04.05-21.29.45:394][518]LogWorld: Bringing up level for play took: 0.005854
+[2015.04.05-21.29.45:398][518]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.119
+[2015.04.05-21.30.31:494][872]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6A4220
+[2015.04.05-21.30.31:494][872]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECB9580
+[2015.04.05-21.30.32:347][945]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.30.32:348][945]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:30:32 AM)
+[2015.04.05-21.30.32:349][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000815s)
+[2015.04.05-21.30.32:349][945]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2015.04.05-21.30.32:350][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001404s)
+[2015.04.05-21.30.32:379][945]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.30.32:381][945]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.30.32:384][945]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.30.32
+[2015.04.05-21.30.32:384][945]LogWorld: Bringing up level for play took: 0.002592
+[2015.04.05-21.30.32:386][945]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.868
+[2015.04.05-21.31.16:308][ 70]LogCascade: Non-seeded module ParticleModuleAccelerationConstant
+[2015.04.05-21.31.26:037][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECB8A40
+[2015.04.05-21.32.27:861][260]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz)
+[2015.04.05-21.32.48:977][224]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.32.48:977][224]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:32:48 AM)
+[2015.04.05-21.32.48:978][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000872s)
+[2015.04.05-21.32.48:979][224]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2015.04.05-21.32.48:979][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001498s)
+[2015.04.05-21.32.49:009][224]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.32.49:011][224]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.32.49:014][224]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.32.49
+[2015.04.05-21.32.49:014][224]LogWorld: Bringing up level for play took: 0.002620
+[2015.04.05-21.32.49:017][224]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.504
+[2015.04.05-21.33.02:390][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026118E00
+[2015.04.05-21.33.04:607][940]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-21.33.07:609][189]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz)
+[2015.04.05-21.33.09:125][311]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.33.09:125][311]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:33:09 AM)
+[2015.04.05-21.33.09:128][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2015.04.05-21.33.09:129][311]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2015.04.05-21.33.09:129][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.002552s)
+[2015.04.05-21.33.09:159][311]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.33.09:160][311]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.33.09:163][311]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.33.09
+[2015.04.05-21.33.09:163][311]LogWorld: Bringing up level for play took: 0.002598
+[2015.04.05-21.33.09:165][311]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.355
+[2015.04.05-21.33.19:012][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECB8900
+[2015.04.05-21.33.29:751][621]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-21.33.31:473][761]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.33.31:473][761]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:33:31 AM)
+[2015.04.05-21.33.31:475][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000796s)
+[2015.04.05-21.33.31:475][761]LogPlayLevel: PIE: World Init took: (0.000441s)
+[2015.04.05-21.33.31:475][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001363s)
+[2015.04.05-21.33.31:508][761]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.33.31:510][761]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.33.31:513][761]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.33.31
+[2015.04.05-21.33.31:513][761]LogWorld: Bringing up level for play took: 0.002609
+[2015.04.05-21.33.31:515][761]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.006
+[2015.04.05-21.33.45:534][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECB8680
+[2015.04.05-21.33.58:937][814]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-21.33.58:937][814]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-21.34.05:221][523]LogCascade: Quitting Cascade. FXSystem=0x000000001CEF7D80
+[2015.04.05-21.34.25:135][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Orbitz" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz.uasset" SILENT=true
+[2015.04.05-21.34.25:184][880]LogSavePackage: Save=45.223953ms
+[2015.04.05-21.34.25:184][880]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/OrbitzE339A4A54BAE972134516A99954B123A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz.uasset'
+[2015.04.05-21.34.26:043][982]LogCascade: Quitting Cascade. FXSystem=0x0000000026118C20
+[2015.04.05-21.34.27:229][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEF7D80
+[2015.04.05-21.34.27:229][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026118C20
+[2015.04.05-21.34.27:421][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.05-21.34.27:496][ 85]LogSavePackage: Save=17.237284ms
+[2015.04.05-21.34.27:496][ 85]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMapEA8151E946274D41F2B49E88991BC42E.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap'
+[2015.04.05-21.34.27:533][ 85]LogFileHelpers: Saving map 'My2DMap' took 0.229
+[2015.04.05-21.34.27:545][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset" SILENT=true
+[2015.04.05-21.34.27:578][ 85]LogSavePackage: Save=20.673740ms
+[2015.04.05-21.34.27:578][ 85]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp714071DD4383FD8994A1BB8AF7813D37.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset'
+[2015.04.05-21.34.29:795][296]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz)
+[2015.04.05-21.34.36:505][943]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-21.34.47:874][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-21.34.57:721][967]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-21.34.57:721][967]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-21.35.17:793][754]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-21.35.17:793][754]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-21.35.55:336][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/LightPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/LightPart.uasset" SILENT=true
+[2015.04.05-21.35.55:370][549]LogSavePackage: Save=31.692575ms
+[2015.04.05-21.35.55:370][549]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/LightPart880E22054E4520AAC940919B6F35A28A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/LightPart.uasset'
+[2015.04.05-21.36.01:526][982]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.36.01:526][982]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:36:01 AM)
+[2015.04.05-21.36.01:527][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000877s)
+[2015.04.05-21.36.01:527][982]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2015.04.05-21.36.01:528][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001467s)
+[2015.04.05-21.36.01:562][982]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.36.01:563][982]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.36.01:566][982]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.36.01
+[2015.04.05-21.36.01:567][982]LogWorld: Bringing up level for play took: 0.002860
+[2015.04.05-21.36.01:569][982]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.045
+[2015.04.05-21.36.06:183][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002611AB60
+[2015.04.05-21.36.07:218][573]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-21.36.15:408][163]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-21.36.15:408][163]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 7:36:15 AM)
+[2015.04.05-21.36.15:409][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000850s)
+[2015.04.05-21.36.15:409][163]LogPlayLevel: PIE: World Init took: (0.000442s)
+[2015.04.05-21.36.15:409][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001418s)
+[2015.04.05-21.36.15:442][163]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-21.36.15:444][163]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-21.36.15:446][163]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-14.36.15
+[2015.04.05-21.36.15:447][163]LogWorld: Bringing up level for play took: 0.002846
+[2015.04.05-21.36.15:449][163]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.075
+[2015.04.05-21.36.30:614][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F18C20
+[2015.04.05-21.36.58:785][925]LogEditorViewport: Clicking on Actor (LMB): Emitter (LightPart)
+[2015.04.05-21.37.00:670][ 79]Cmd: DELETE
+[2015.04.05-21.37.00:670][ 79]Cmd: ACTOR DELETE
+[2015.04.05-21.37.00:671][ 79]LogEditorActor: Deleted Actor: Emitter
+[2015.04.05-21.37.00:685][ 79]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.04.05-21.37.07:174][562]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-21.37.07:174][562]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-21.37.09:568][797]LogCascade: Quitting Cascade. FXSystem=0x000000001E164F40
+[2015.04.05-21.37.10:147][840]LogCascade: Quitting Cascade. FXSystem=0x000000000FCB5C60
+[2015.04.05-21.40.22:742][341]LogCascade: Non-seeded module ParticleModuleAttractorPoint
+[2015.04.05-21.42.40:138][ 18]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz2)
+[2015.04.05-21.44.01:132][456]LogMaterial:Warning: Material /Game/Materials/LevelPrototype.LevelPrototype needed to have new flag set bUsedWithParticleSprites !
+[2015.04.05-21.44.01:134][456]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.04.05-21.44.01:149][456]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-21.44.59:131][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FCB5C60
+[2015.04.05-21.44.59:131][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E164F40
+[2015.04.05-21.44.59:237][965]LogSavePackage: Save=18.296658ms
+[2015.04.05-21.44.59:237][965]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap_Auto48F5B106C4998C687C01F05898D0CACD7.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/My2DMap_Auto4.umap'
+[2015.04.05-21.44.59:243][965]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.121
+[2015.04.05-21.44.59:243][965]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2015.04.05-21.44.59:316][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/LevelPrototype] ([1] browsable assets)...
+[2015.04.05-21.44.59:371][965]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/LevelPrototype.LevelPrototype]
+[2015.04.05-21.44.59:371][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/LevelPrototype]
+[2015.04.05-21.44.59:593][965]LogSavePackage: Save=199.268829ms
+[2015.04.05-21.44.59:595][965]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/LevelPrototype_Auto44F916FA24D3FA7BBC0282088A6E13CC4.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Materials/LevelPrototype_Auto4.uasset'
+[2015.04.05-21.44.59:650][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Orbitz2] ([1] browsable assets)...
+[2015.04.05-21.44.59:690][965]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/Orbitz2.Orbitz2]
+[2015.04.05-21.44.59:690][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Orbitz2]
+[2015.04.05-21.44.59:823][965]LogSavePackage: Save=129.360672ms
+[2015.04.05-21.44.59:824][965]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Orbitz2_Auto4CAC3B98845DBD30522DB7C9AA12BC59A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/Orbitz2_Auto4.uasset'
+[2015.04.05-21.44.59:827][965]LogFileHelpers: Auto-saving content packages took 0.585
+[2015.04.05-21.46.16:279][ 31]LogCascade: Non-seeded module ParticleModuleAttractorParticle
+[2015.04.05-21.49.27:218][908]LogCascade: Non-seeded module ParticleModuleAttractorPoint
+[2015.04.05-21.50.15:493][309]LogEditorTransaction: Undo Edit Emitter Name
+[2015.04.05-21.54.59:868][467]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.014
+[2015.04.05-21.54.59:936][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Orbitz2] ([1] browsable assets)...
+[2015.04.05-21.54.59:982][467]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/Orbitz2.Orbitz2]
+[2015.04.05-21.54.59:982][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Orbitz2]
+[2015.04.05-21.55.00:112][467]LogSavePackage: Save=126.349014ms
+[2015.04.05-21.55.00:113][467]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Orbitz2_Auto51674B58E405674B00CFCB0895A74C752.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/Orbitz2_Auto5.uasset'
+[2015.04.05-21.55.00:117][467]LogFileHelpers: Auto-saving content packages took 0.249
+[2015.04.05-22.01.22:252][758]LogCascade: Non-seeded module ParticleModuleLocation
+[2015.04.05-22.03.02:049][265]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.03.02:049][265]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:03:02 AM)
+[2015.04.05-22.03.02:051][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000948s)
+[2015.04.05-22.03.02:051][265]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2015.04.05-22.03.02:051][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001580s)
+[2015.04.05-22.03.02:082][265]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.03.02:084][265]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.03.02:086][265]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.03.02
+[2015.04.05-22.03.02:087][265]LogWorld: Bringing up level for play took: 0.002954
+[2015.04.05-22.03.02:089][265]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.535
+[2015.04.05-22.03.16:373][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030F0C9A0
+[2015.04.05-22.03.27:539][716]LogCascade: Quitting Cascade. FXSystem=0x00000000271DCE00
+[2015.04.05-22.03.46:330][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/DeflectionPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset" SILENT=true
+[2015.04.05-22.03.46:365][391]LogSavePackage: Save=32.418427ms
+[2015.04.05-22.03.46:365][391]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPartEC42E46B4A71F7BBE9EE29AD46D43B45.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset'
+[2015.04.05-22.03.46:476][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000271DCE00
+[2015.04.05-22.03.47:883][510]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.03.47:883][510]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.04.37:604][862]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2015.04.05-22.04.40:562][ 89]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz2)
+[2015.04.05-22.04.43:022][283]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.04.43:023][283]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:04:43 AM)
+[2015.04.05-22.04.43:024][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000953s)
+[2015.04.05-22.04.43:024][283]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2015.04.05-22.04.43:025][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001577s)
+[2015.04.05-22.04.43:060][283]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.04.43:062][283]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.04.43:065][283]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.04.43
+[2015.04.05-22.04.43:065][283]LogWorld: Bringing up level for play took: 0.002922
+[2015.04.05-22.04.43:068][283]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.489
+[2015.04.05-22.04.54:682][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030F0EFC0
+[2015.04.05-22.05.26:197][815]LogSavePackage: Save=20.967474ms
+[2015.04.05-22.05.26:197][815]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap_Auto68E08AEE94F2BA455BBBF35B2E9E03721.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/My2DMap_Auto6.umap'
+[2015.04.05-22.05.26:207][815]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.127
+[2015.04.05-22.05.26:207][815]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2015.04.05-22.05.26:319][815]LogSavePackage: Save=105.848473ms
+[2015.04.05-22.05.26:320][815]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Orbitz2_Auto6BF63CBD94B8D0950A6E96EBAF29A488B.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/Orbitz2_Auto6.uasset'
+[2015.04.05-22.05.26:383][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/DeflectionPart] ([1] browsable assets)...
+[2015.04.05-22.05.26:433][815]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/DeflectionPart.DeflectionPart]
+[2015.04.05-22.05.26:433][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/DeflectionPart]
+[2015.04.05-22.05.26:575][815]LogSavePackage: Save=119.035789ms
+[2015.04.05-22.05.26:577][815]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPart_Auto6B43058EA408E3E067B844DB46BD04B4B.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/DeflectionPart_Auto6.uasset'
+[2015.04.05-22.05.26:584][815]LogFileHelpers: Auto-saving content packages took 0.377
+[2015.04.05-22.05.29:766][173]LogEditorTransaction: Undo Delete Selected Module
+[2015.04.05-22.05.55:380][813]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz)
+[2015.04.05-22.05.57:477][986]LogEditorViewport: Clicking on Actor (LMB): Emitter (Flooppp)
+[2015.04.05-22.05.59:611][155]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orbitz2)
+[2015.04.05-22.06.03:661][491]Cmd: DELETE
+[2015.04.05-22.06.03:661][491]Cmd: ACTOR DELETE
+[2015.04.05-22.06.03:662][491]LogEditorActor: Deleted Actor: Emitter
+[2015.04.05-22.06.03:673][491]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.04.05-22.06.13:006][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.05-22.06.13:048][266]LogSavePackage: Save=19.569017ms
+[2015.04.05-22.06.13:048][266]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap5BC28727413656A9B1FFAE90BBBDE9F5.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap'
+[2015.04.05-22.06.13:090][266]LogFileHelpers: Saving map 'My2DMap' took 0.220
+[2015.04.05-22.06.13:093][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Materials/LevelPrototype.uasset" SILENT=true
+[2015.04.05-22.06.13:123][266]LogSavePackage: Save=15.196357ms
+[2015.04.05-22.06.13:123][266]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/LevelPrototype6C61B31A48BE906F13258D91B5016B87.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Materials/LevelPrototype.uasset'
+[2015.04.05-22.06.13:132][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Orbitz2" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz2.uasset" SILENT=true
+[2015.04.05-22.06.13:138][266]LogSavePackage: Save=3.004047ms
+[2015.04.05-22.06.13:138][266]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Orbitz2C28B508642964FE40DBEEC8BAA321C07.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz2.uasset'
+[2015.04.05-22.06.13:156][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/DeflectionPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset" SILENT=true
+[2015.04.05-22.06.13:212][266]LogSavePackage: Save=40.184536ms
+[2015.04.05-22.06.13:212][266]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPartF0165EAE43FE975A97BF45B6661BF4FA.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset'
+[2015.04.05-22.06.15:110][408]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.06.15:111][408]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:06:15 AM)
+[2015.04.05-22.06.15:112][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000921s)
+[2015.04.05-22.06.15:113][408]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2015.04.05-22.06.15:113][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001594s)
+[2015.04.05-22.06.15:146][408]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.06.15:148][408]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.06.15:151][408]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.06.15
+[2015.04.05-22.06.15:152][408]LogWorld: Bringing up level for play took: 0.003383
+[2015.04.05-22.06.15:155][408]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.403
+[2015.04.05-22.06.18:645][764]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F7F7D80
+[2015.04.05-22.08.20:298][559]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.08.20:298][559]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.08.24:692][996]LogCascade: Non-seeded module ParticleModuleCollision
+[2015.04.05-22.09.42:702][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset" SILENT=true
+[2015.04.05-22.09.42:740][ 68]LogSavePackage: Save=23.321735ms
+[2015.04.05-22.09.42:740][ 68]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp3366476A44CB9D0D1410089A21C6FD26.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset'
+[2015.04.05-22.09.43:615][159]LogCascade: Quitting Cascade. FXSystem=0x000000001E302480
+[2015.04.05-22.10.03:747][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/DeflectionPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset" SILENT=true
+[2015.04.05-22.10.03:822][314]LogSavePackage: Save=48.528461ms
+[2015.04.05-22.10.03:822][314]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPart78D4E290459D32076A1ABC84E2EFC1A3.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset'
+[2015.04.05-22.10.04:604][399]LogCascade: Quitting Cascade. FXSystem=0x000000000F652660
+[2015.04.05-22.10.10:537][909]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.10.10:537][909]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:10:10 AM)
+[2015.04.05-22.10.10:539][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000879s)
+[2015.04.05-22.10.10:539][909]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2015.04.05-22.10.10:539][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001519s)
+[2015.04.05-22.10.10:576][909]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.10.10:579][909]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.10.10:584][909]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.10.10
+[2015.04.05-22.10.10:584][909]LogWorld: Bringing up level for play took: 0.003575
+[2015.04.05-22.10.10:587][909]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 1.025
+[2015.04.05-22.10.30:677][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D009260
+[2015.04.05-22.10.30:677][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F652660
+[2015.04.05-22.10.30:677][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E302480
+[2015.04.05-22.10.36:086][505]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite2)
+[2015.04.05-22.10.41:814][961]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.10.41:815][961]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:10:41 AM)
+[2015.04.05-22.10.41:816][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001002s)
+[2015.04.05-22.10.41:817][961]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2015.04.05-22.10.41:817][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001726s)
+[2015.04.05-22.10.41:848][961]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.10.41:850][961]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.10.41:852][961]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.10.41
+[2015.04.05-22.10.41:853][961]LogWorld: Bringing up level for play took: 0.002851
+[2015.04.05-22.10.41:855][961]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.292
+[2015.04.05-22.10.47:206][506]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FD8C720
+[2015.04.05-22.10.49:825][710]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.10.49:825][710]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.10.53:172][ 59]LogCascade: Quitting Cascade. FXSystem=0x0000000015C17560
+[2015.04.05-22.10.54:902][183]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.10.54:902][183]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.11.14:839][104]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Prototypingsprite2)
+[2015.04.05-22.11.33:605][551]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.11.33:605][551]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:11:33 AM)
+[2015.04.05-22.11.33:606][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000934s)
+[2015.04.05-22.11.33:607][551]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2015.04.05-22.11.33:607][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001587s)
+[2015.04.05-22.11.33:648][551]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.11.33:651][551]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.11.33:654][551]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.11.33
+[2015.04.05-22.11.33:654][551]LogWorld: Bringing up level for play took: 0.002876
+[2015.04.05-22.11.33:657][551]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.093
+[2015.04.05-22.11.38:836][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FEBECA0
+[2015.04.05-22.11.38:837][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C17560
+[2015.04.05-22.11.41:106][246]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.11.41:106][246]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.11.43:015][429]LogCascade: Quitting Cascade. FXSystem=0x0000000024F4D4E0
+[2015.04.05-22.11.45:235][662]LogCascade: Quitting Cascade. FXSystem=0x0000000043C3E660
+[2015.04.05-22.11.47:157][800]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.11.47:157][800]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.12.06:113][838]LogCascade: Quitting Cascade. FXSystem=0x00000000241018A0
+[2015.04.05-22.12.08:503][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.12.08:503][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.12.10:006][162]LogCascade: Quitting Cascade. FXSystem=0x00000000322E40E0
+[2015.04.05-22.12.11:103][232]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.12.11:103][232]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.12.20:774][171]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.12.20:774][171]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:12:20 AM)
+[2015.04.05-22.12.20:775][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000866s)
+[2015.04.05-22.12.20:776][171]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2015.04.05-22.12.20:776][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001484s)
+[2015.04.05-22.12.20:809][171]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.12.20:811][171]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.12.20:814][171]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.12.20
+[2015.04.05-22.12.20:815][171]LogWorld: Bringing up level for play took: 0.002998
+[2015.04.05-22.12.20:817][171]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.748
+[2015.04.05-22.12.27:938][913]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.04.05-22.12.29:105][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-22.12.32:488][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E1640E0
+[2015.04.05-22.12.32:488][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000322E40E0
+[2015.04.05-22.12.32:488][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000241018A0
+[2015.04.05-22.12.32:488][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043C3E660
+[2015.04.05-22.12.32:488][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024F4D4E0
+[2015.04.05-22.12.34:494][533]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.04.05-22.12.38:597][876]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.12.38:597][876]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:12:38 AM)
+[2015.04.05-22.12.38:598][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000848s)
+[2015.04.05-22.12.38:598][876]LogPlayLevel: PIE: World Init took: (0.000435s)
+[2015.04.05-22.12.38:598][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001410s)
+[2015.04.05-22.12.38:630][876]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.12.38:632][876]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.12.38:635][876]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.12.38
+[2015.04.05-22.12.38:635][876]LogWorld: Bringing up level for play took: 0.002913
+[2015.04.05-22.12.38:637][876]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.928
+[2015.04.05-22.13.11:376][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-22.13.16:016][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.05-22.13.16:060][748]LogSavePackage: Save=19.497339ms
+[2015.04.05-22.13.16:060][748]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/My2DMap08AF2116491A6FE3E0B8DD9B82BF1BFE.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/My2DMap.umap'
+[2015.04.05-22.13.16:101][748]LogFileHelpers: Saving map 'My2DMap' took 0.217
+[2015.04.05-22.13.16:113][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Orbitz" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz.uasset" SILENT=true
+[2015.04.05-22.13.16:150][748]LogSavePackage: Save=22.019827ms
+[2015.04.05-22.13.16:151][748]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Orbitz337E33D84B2FCB94BE95D490C1A19543.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Orbitz.uasset'
+[2015.04.05-22.13.16:167][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Flooppp" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset" SILENT=true
+[2015.04.05-22.13.16:202][748]LogSavePackage: Save=21.229610ms
+[2015.04.05-22.13.16:202][748]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Flooppp5F08EC9640ECD4459245029B79260CD6.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/Flooppp.uasset'
+[2015.04.05-22.13.16:222][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/DeflectionPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset" SILENT=true
+[2015.04.05-22.13.16:266][748]LogSavePackage: Save=30.017647ms
+[2015.04.05-22.13.16:266][748]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPart8DD40990494D2BCC1803C2AF52EB0849.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset'
+[2015.04.05-22.13.18:329][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F19C60
+[2015.04.05-22.13.35:469][691]LogCascade: Quitting Cascade. FXSystem=0x000000002FD8D300
+[2015.04.05-22.13.37:525][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FD8D300
+[2015.04.05-22.13.37:639][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/DeflectionPart" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset" SILENT=true
+[2015.04.05-22.13.37:677][863]LogSavePackage: Save=26.738005ms
+[2015.04.05-22.13.37:677][863]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/DeflectionPart5005D04245707F9A4E022F8C1FE3494F.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/DeflectionPart.uasset'
+[2015.04.05-22.13.40:209][109]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.13.40:209][109]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:13:40 AM)
+[2015.04.05-22.13.40:210][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000892s)
+[2015.04.05-22.13.40:211][109]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2015.04.05-22.13.40:211][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001490s)
+[2015.04.05-22.13.40:245][109]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.13.40:247][109]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.13.40:251][109]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.13.40
+[2015.04.05-22.13.40:252][109]LogWorld: Bringing up level for play took: 0.003998
+[2015.04.05-22.13.40:256][109]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.69
+[2015.04.05-22.16.43:105][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E1B2D40
+[2015.04.05-22.17.06:215][676]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.17.06:215][676]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.21.19:866][265]LogEditorTransaction: Undo Create New Module
+[2015.04.05-22.24.22:134][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-22.24.31:333][587]LogMaterial: Missing cached shader map for material personpartmat, compiling. 
+[2015.04.05-22.24.31:358][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.05-22.24.31:399][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.05-22.24.31:399][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.05-22.24.31:399][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.05-22.24.31:399][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.05-22.24.31:401][587]LogMaterial: Missing cached shader map for material personpartmat, compiling. 
+[2015.04.05-22.24.31:406][587]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.24.32:409][656]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.05-22.24.32:409][656]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.05-22.24.32:409][656]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-22.24.51:607][ 70]LogCascade: Quitting Cascade. FXSystem=0x000000000661DA80
+[2015.04.05-22.24.51:887][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C151C0
+[2015.04.05-22.24.51:888][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000661DA80
+[2015.04.05-22.25.03:346][165]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.25.06:907][427]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.25.06:935][427]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.05-22.25.06:960][427]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.05-22.25.06:960][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.05-22.25.06:960][427]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.05-22.25.06:960][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.05-22.25.06:963][427]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.25.06:965][427]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.25.07:815][501]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.25.07:815][501]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.25.07:815][501]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.25.15:812][324]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-22.25.17:370][478]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.04.05-22.25.17:754][515]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.05-22.25.18:139][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-22.25.18:495][581]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.04.05-22.25.21:881][897]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/RunAnim'
+[2015.04.05-22.25.24:855][157]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/IdleAnim'
+[2015.04.05-22.25.59:539][391]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.25.59:545][391]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.25.59:554][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
+[2015.04.05-22.26.00:865][450]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.26.00:865][450]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.26.00:865][450]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.26.21:312][530]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.05-22.26.21:313][530]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/EngineResources'
+[2015.04.05-22.26.25:788][754]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.26.25:791][754]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.26.27:079][809]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.26.27:079][809]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.26.27:079][809]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.26.33:269][139]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.26.33:272][139]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.26.34:145][179]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.26.34:145][179]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.26.34:145][179]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.26.34:524][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.011
+[2015.04.05-22.26.34:574][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PersonPart] ([1] browsable assets)...
+[2015.04.05-22.26.34:603][193]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PersonPart.PersonPart]
+[2015.04.05-22.26.34:603][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PersonPart]
+[2015.04.05-22.26.34:736][193]LogSavePackage: Save=129.107605ms
+[2015.04.05-22.26.34:738][193]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/PersonPart_Auto7A12871A94FE5107E2034A8A7E559C1DF.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/PersonPart_Auto7.uasset'
+[2015.04.05-22.26.34:805][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PersonPartMat] ([1] browsable assets)...
+[2015.04.05-22.26.34:847][193]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Particles/PersonPartMat.PersonPartMat]
+[2015.04.05-22.26.34:847][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PersonPartMat]
+[2015.04.05-22.26.35:249][193]LogSavePackage: Save=396.273773ms
+[2015.04.05-22.26.35:250][193]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/PersonPartMat_Auto7E2F6F1774E7327BDB10531ADC5B472E1.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/Autosaves/Game/Particles/PersonPartMat_Auto7.uasset'
+[2015.04.05-22.26.35:254][193]LogFileHelpers: Auto-saving content packages took 0.730
+[2015.04.05-22.26.48:076][941]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.04.05-22.26.48:137][943]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.04.05-22.26.48:181][944]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.05-22.26.48:317][947]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.04.05-22.26.48:416][949]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2015.04.05-22.26.48:571][952]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2015.04.05-22.26.48:682][955]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2015.04.05-22.26.48:717][956]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2015.04.05-22.26.48:820][958]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2015.04.05-22.26.48:891][960]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2015.04.05-22.26.48:967][962]LogMaterial: Missing cached shader map for material Material_10, compiling. 
+[2015.04.05-22.26.49:055][964]LogMaterial: Missing cached shader map for material Material_11, compiling. 
+[2015.04.05-22.26.49:097][965]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2015.04.05-22.26.49:136][966]LogMaterial: Missing cached shader map for material Material_13, compiling. 
+[2015.04.05-22.26.49:208][967]LogMaterial: Missing cached shader map for material Material_14, compiling. 
+[2015.04.05-22.26.49:313][969]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2015.04.05-22.26.49:453][972]LogMaterial: Missing cached shader map for material Material_16, compiling. 
+[2015.04.05-22.26.49:515][974]LogMaterial: Missing cached shader map for material Material_17, compiling. 
+[2015.04.05-22.26.49:609][976]LogMaterial: Missing cached shader map for material Material_18, compiling. 
+[2015.04.05-22.26.49:955][982]LogMaterial: Missing cached shader map for material Material_19, compiling. 
+[2015.04.05-22.26.49:961][982]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2015.04.05-22.26.49:996][983]LogMaterial: Missing cached shader map for material Material_21, compiling. 
+[2015.04.05-22.26.50:054][984]LogMaterial: Missing cached shader map for material Material_22, compiling. 
+[2015.04.05-22.26.50:062][984]LogMaterial: Missing cached shader map for material Material_23, compiling. 
+[2015.04.05-22.26.50:063][984]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_23 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.05-22.26.50:063][984]LogMaterial:Warning: 	Only translucent materials can use the scene color node.
+[2015.04.05-22.26.50:103][985]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2015.04.05-22.26.50:278][989]LogMaterial: Missing cached shader map for material Material_25, compiling. 
+[2015.04.05-22.26.50:279][989]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_25 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.05-22.26.50:279][989]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2015.04.05-22.26.50:284][989]LogMaterial: Missing cached shader map for material Material_26, compiling. 
+[2015.04.05-22.26.50:316][990]LogMaterial: Missing cached shader map for material Material_27, compiling. 
+[2015.04.05-22.26.50:365][991]LogMaterial: Missing cached shader map for material Material_28, compiling. 
+[2015.04.05-22.26.50:403][992]LogMaterial: Missing cached shader map for material Material_29, compiling. 
+[2015.04.05-22.26.50:411][992]LogMaterial: Missing cached shader map for material Material_30, compiling. 
+[2015.04.05-22.26.50:597][996]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2015.04.05-22.26.52:570][ 70]LogMaterial: Missing cached shader map for material Material_32, compiling. 
+[2015.04.05-22.26.52:595][ 71]LogMaterial: Missing cached shader map for material Material_33, compiling. 
+[2015.04.05-22.26.52:628][ 72]LogMaterial: Missing cached shader map for material Material_34, compiling. 
+[2015.04.05-22.26.52:629][ 72]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_34 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.05-22.26.52:629][ 72]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2015.04.05-22.27.02:477][555]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.27.02:480][555]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.27.03:344][590]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.27.03:344][590]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.27.03:344][590]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.27.09:546][924]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.27.09:549][924]LogMaterial: 0.000200 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.27.09:549][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.27.10:511][968]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.27.10:511][968]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.27.10:511][968]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.27.29:025][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.05-22.27.36:132][211]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.27.36:134][211]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.27.36:158][211]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.27.37:452][276]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.27.37:452][276]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.27.37:452][276]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.27.55:069][309]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.27.55:098][309]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.27.55:151][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.27.56:153][357]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.27.56:153][357]MaterialEditorStats: Info Vertex shader: 72 instructions
+[2015.04.05-22.27.56:153][357]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.05-22.28.00:089][587]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.00:092][587]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.00:958][628]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.28.00:958][628]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.28.00:958][628]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.28.18:656][651]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.18:660][651]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.18:662][651]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.18:801][656]MaterialEditorStats: Info Base pass shader without light map: 33 instructions
+[2015.04.05-22.28.18:801][656]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.05-22.28.18:801][656]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-22.28.24:720][992]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.24:724][992]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.24:727][992]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.24:903][  0]MaterialEditorStats: Info Base pass shader without light map: 33 instructions
+[2015.04.05-22.28.24:903][  0]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.05-22.28.24:903][  0]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.05-22.28.30:788][337]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.30:793][337]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.30:797][337]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.31:699][380]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2015.04.05-22.28.31:699][380]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.28.31:699][380]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.28.33:733][495]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.33:740][495]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.33:743][495]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.34:717][542]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.28.34:717][542]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.28.34:717][542]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.28.55:819][756]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.28.55:823][756]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.28.57:087][819]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.28.57:088][819]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.28.57:088][819]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.29.03:159][175]LogEditorTransaction: Undo Material Editor: Delete
+[2015.04.05-22.29.03:161][175]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.29.03:172][175]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.29.03:177][175]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.29.03:201][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.29.04:144][207]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.29.04:144][207]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.29.04:144][207]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.29.11:102][606]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.29.11:104][606]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.29.11:126][606]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.29.12:060][649]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2015.04.05-22.29.12:060][649]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.29.12:060][649]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.29.14:447][786]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.29.14:449][786]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.29.14:474][786]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2015.04.05-22.29.15:398][829]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.04.05-22.29.15:398][829]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.29.15:398][829]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.29.33:590][131]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-22.29.37:208][447]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.29.37:208][447]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.30.15:067][321]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.15:070][321]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.30.16:408][426]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2015.04.05-22.30.16:409][426]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.30.16:409][426]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.30.17:192][502]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.17:195][502]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.30.18:109][580]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.30.18:109][580]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.30.18:109][580]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.30.18:483][616]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.18:485][616]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.30.19:429][692]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.04.05-22.30.19:429][692]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.30.19:429][692]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.05-22.30.26:384][930]LogMaterialEditor: Saving and Compiling material PersonPartMat
+[2015.04.05-22.30.27:763][930]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.27:772][930]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.30.27:851][930]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.27:863][930]LogMaterial: Missing cached shader map for material PersonPartMat, compiling. 
+[2015.04.05-22.30.27:871][930]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.05-22.30.27:871][930]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.05-22.30.27:872][930]LogMaterial: 0.001555 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.05-22.30.30:158][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PersonPartMat" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/PersonPartMat.uasset" SILENT=true
+[2015.04.05-22.30.30:556][930]LogSavePackage: Save=394.284058ms
+[2015.04.05-22.30.30:556][930]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/PersonPartMatAEE51680494C524690194080E49E5872.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Particles/PersonPartMat.uasset'
+[2015.04.05-22.30.30:563][930]MaterialEditorStats: Info Base pass shader without light map: 37 instructions
+[2015.04.05-22.30.30:563][930]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.05-22.30.30:563][930]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.04.05-22.31.54:398][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DF42B60
+[2015.04.05-22.31.55:857][935]LogCascade: Quitting Cascade. FXSystem=0x000000004B2A2700
+[2015.04.05-22.31.56:093][935]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_15' or package '/Engine/Transient'.
+[2015.04.05-22.31.56:093][935]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_14' or package '/Engine/Transient'.
+[2015.04.05-22.31.56:191][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B2A2700
+[2015.04.05-22.32.06:037][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.05-22.32.11:040][214]LogRenderer:Warning: Reallocating scene render targets to support 1208x808 (Frame:690679).
+[2015.04.05-22.32.15:545][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.05-22.33.21:510][ 57]BlueprintLog: New page: Compile MyCharacter
+[2015.04.05-22.33.21:618][ 57]BlueprintEditorCompileResults: Info [7552.24] Compile of MyCharacter successful! [in 108 ms]
+[2015.04.05-22.33.34:812][833]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.05-22.33.34:812][833]PIE: New page: PIE session: My2DMap (Apr 5, 2015, 8:33:34 AM)
+[2015.04.05-22.33.34:814][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000872s)
+[2015.04.05-22.33.34:814][833]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2015.04.05-22.33.34:814][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.001545s)
+[2015.04.05-22.33.34:845][833]LogWorld: Game class is 'PaperGameMode_C'
+[2015.04.05-22.33.34:847][833]LogAIModule: Creating AISystem for world My2DMap
+[2015.04.05-22.33.34:850][833]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.04.05-15.33.34
+[2015.04.05-22.33.34:850][833]LogWorld: Bringing up level for play took: 0.002854
+[2015.04.05-22.33.34:852][833]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap -0.736
+[2015.04.05-22.34.37:281][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D0D51C0
+[2015.04.05-22.34.40:840][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.04.05-22.34.41:087][439]LogSavePackage: Save=144.846375ms
+[2015.04.05-22.34.41:087][439]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Saved/MyCharacter635CDBFC4E5606ED4DFAE986FDB2E21B.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/MyPaper2dGame/Content/Blueprints/MyCharacter.uasset'
+[2015.04.05-22.34.44:433][732]Cmd: QUIT_EDITOR
+[2015.04.05-22.34.44:659][732]LogExit: Preparing to exit.
+[2015.04.05-22.34.45:470][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F6532E0
+[2015.04.05-22.34.45:470][732]LogExit: Editor shut down
+[2015.04.05-22.34.45:471][732]LogExit: Transaction tracking system shut down
+[2015.04.05-22.34.45:471][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D7777E0
+[2015.04.05-22.34.45:472][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E300680
+[2015.04.05-22.34.45:472][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A06BEC0
+[2015.04.05-22.34.45:473][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C16200
+[2015.04.05-22.34.45:473][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000271DF9C0
+[2015.04.05-22.34.45:582][732]LogExit: Object subsystem successfully closed.
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module DistCurveEditor (179)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module Cascade (178)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.05-22.34.45:639][732]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.05-22.34.45:640][732]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.05-22.34.45:874][732]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.05-22.34.45:875][732]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.05-22.34.45:875][732]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.05-22.34.45:918][732]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.05-22.34.45:918][732]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.05-22.34.45:918][732]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.05-22.34.45:920][732]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.05-22.34.46:000][732]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.05-22.34.46:001][732]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.05-22.34.46:001][732]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.05-22.34.46:001][732]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.05-22.34.46:101][732]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.05-22.34.46:101][732]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.05-22.34.46:105][732]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.05-22.34.46:106][732]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.05-22.34.46:106][732]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.05-22.34.46:106][732]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.05-22.34.46:106][732]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.05-22.34.46:106][732]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.05-22.34.46:112][732]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.05-22.34.46:112][732]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.05-22.34.46:112][732]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.05-22.34.46:113][732]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.05-22.34.46:189][732]LogDerivedDataCache: Shutdown
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.05-22.34.46:189][732]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.05-22.34.46:192][732]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.05-22.34.46:192][732]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.05-22.34.46:193][732]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.05-22.34.46:193][732]LogExit: Exiting.
+[2015.04.05-22.34.46:221][732]Log file closed, 04/05/15 15:34:46

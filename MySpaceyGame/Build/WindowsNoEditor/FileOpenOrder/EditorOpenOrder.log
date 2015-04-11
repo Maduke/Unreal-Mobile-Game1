@@ -1,0 +1,590 @@
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/MySpaceyGame.uproject" 1
+"../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin" 2
+"../../../Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin" 3
+"../../../Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin" 4
+"../../../Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin" 5
+"../../../Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin" 6
+"../../../Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin" 7
+"../../../Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin" 8
+"../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin" 9
+"../../../Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin" 10
+"../../../Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin" 11
+"../../../Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin" 12
+"../../../Engine/Plugins/Editor/PluginsEditor/PluginsEditor.uplugin" 13
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin" 14
+"../../../Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin" 15
+"../../../Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin" 16
+"../../../Engine/Plugins/Experimental/CodeView/CodeView.uplugin" 17
+"../../../Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin" 18
+"../../../Engine/Plugins/Experimental/Phya/Phya.uplugin" 19
+"../../../Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin" 20
+"../../../Engine/Plugins/Experimental/SteamVR/SteamVR.uplugin" 21
+"../../../Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin" 22
+"../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin" 23
+"../../../Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin" 24
+"../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin" 25
+"../../../Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin" 26
+"../../../Engine/Plugins/Messaging/ShmMessaging/ShmMessaging.uplugin" 27
+"../../../Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin" 28
+"../../../Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin" 29
+"../../../Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin" 30
+"../../../Engine/Plugins/Runtime/Analytics/Apsalar/IOSApsalar/IOSApsalar.uplugin" 31
+"../../../Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin" 32
+"../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin" 33
+"../../../Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin" 34
+"../../../Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin" 35
+"../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin" 36
+"../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin" 37
+"../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin" 38
+"../../../Engine/Plugins/Runtime/GearVR/GearVR.uplugin" 39
+"../../../Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin" 40
+"../../../Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin" 41
+"../../../Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin" 42
+"../../../Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin" 43
+"../../../Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin" 44
+"../../../Engine/Plugins/Runtime/TwitchLiveStreaming/TwitchLiveStreaming.uplugin" 45
+"../../../Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin" 46
+"../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin" 47
+"../../../Engine/Plugins/ScriptGeneratorPlugin/ScriptGeneratorPlugin.uplugin" 48
+"../../../Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin" 49
+"../../../Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin" 50
+"..\..\..\Engine\Content\Internationalization\icudt53l\cnvalias.icu" 51
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US_POSIX.res" 52
+"..\..\..\Engine\Content\Internationalization\icudt53l\pool.res" 53
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US.res" 54
+"..\..\..\Engine\Content\Internationalization\icudt53l\en.res" 55
+"..\..\..\Engine\Content\Internationalization\icudt53l\root.res" 56
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ucadata.icu" 57
+"..\..\..\Engine\Content\Internationalization\icudt53l\nfc.nrm" 58
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US_POSIX.res" 59
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US.res" 60
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en.res" 61
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\root.res" 62
+"..\..\..\Engine\Content\Internationalization\icudt53l\numberingSystems.res" 63
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\supplementalData.res" 64
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pool.res" 65
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\en.res" 66
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\root.res" 67
+"..\..\..\Engine\Content\Internationalization\icudt53l\plurals.res" 68
+"..\..\..\Engine\Content\Internationalization\icudt53l\windowsZones.res" 69
+"..\..\..\Engine\Content\Internationalization\icudt53l\zoneinfo64.res" 70
+"..\..\..\Engine\Content\Internationalization\icudt53l\keyTypeData.res" 71
+"..\..\..\Engine\Content\Internationalization\icudt53l\timezoneTypes.res" 72
+"..\..\..\Engine\Content\Internationalization\icudt53l\supplementalData.res" 73
+"..\..\..\Engine\Content\Internationalization\icudt53l\likelySubtags.res" 74
+"../../../Engine/Config/Base.ini" 75
+"../../../Engine/Config/BaseEngine.ini" 76
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Config/DefaultEngine.ini" 77
+"../../../Engine/Config/Windows/WindowsEngine.ini" 78
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Engine.ini" 79
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" 80
+"../../../Engine/Config/BaseGame.ini" 81
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Config/DefaultGame.ini" 82
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Game.ini" 83
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Game.ini" 84
+"../../../Engine/Config/BaseInput.ini" 85
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Config/DefaultInput.ini" 86
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Input.ini" 87
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Input.ini" 88
+"../../../Engine/Config/BaseEditor.ini" 89
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Config/DefaultEditor.ini" 90
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Editor.ini" 91
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Editor.ini" 92
+"../../../Engine/Config/BaseEditorLayout.ini" 93
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/EditorLayout.ini" 94
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini" 95
+"../../../Engine/Config/BaseEditorUserSettings.ini" 96
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/EditorUserSettings.ini" 97
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/EditorUserSettings.ini" 98
+"../../../Engine/Config/BaseEditorKeyBindings.ini" 99
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/EditorKeyBindings.ini" 100
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini" 101
+"../../../Engine/Config/BaseCompat.ini" 102
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Compat.ini" 103
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Compat.ini" 104
+"../../../Engine/Config/BaseLightmass.ini" 105
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Lightmass.ini" 106
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini" 107
+"../../../Engine/Config/BaseScalability.ini" 108
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/Scalability.ini" 109
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini" 110
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/GameUserSettings.ini" 111
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini" 112
+"../../../Engine/Config/BaseDeviceProfiles.ini" 113
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/DeviceProfiles.ini" 114
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini" 115
+"../../../Engine/Config/ConsoleVariables.ini" 116
+"..\..\..\Engine\Content\Internationalization\icudt53l\es.res" 117
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\es.res" 118
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\es.res" 119
+"..\..\..\Engine\Content\Internationalization\icudt53l\es_ES.res" 120
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja.res" 121
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ja.res" 122
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ja.res" 123
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja_JP.res" 124
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko.res" 125
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ko.res" 126
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ko.res" 127
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko_KR.res" 128
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt_BR.res" 129
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt.res" 130
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\pt.res" 131
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pt.res" 132
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_CN.res" 133
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans_CN.res" 134
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans.res" 135
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh.res" 136
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_CN.res" 137
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans_CN.res" 138
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans.res" 139
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh.res" 140
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_CN.res" 141
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans_CN.res" 142
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans.res" 143
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh.res" 144
+"C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres" 145
+"C:/Program Files/Epic Games/4.7/Engine/Content/Localization/EditorTutorials/en/EditorTutorials.locres" 146
+"C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres" 147
+"../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf" 148
+"../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf" 149
+"../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf" 150
+"../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf" 151
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSpriteVertexFactory.usf" 152
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/VertexFactoryCommon.usf" 153
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/Common.usf" 154
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MetalCommon.usf" 155
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderVersion.usf" 156
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/Definitions.usf" 157
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/Random.usf" 158
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleVertexFactoryCommon.usf" 159
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleGPUSpriteVertexFactory.usf" 160
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBeamTrailVertexFactory.usf" 161
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldVisualizationVertexFactory.usf" 162
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactory.usf" 163
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactoryCommon.usf" 164
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MeshParticleVertexFactory.usf" 165
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinVertexFactory.usf" 166
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheCommon.usf" 167
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LandscapeVertexFactory.usf" 168
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SlateElementPixelShader.usf" 169
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MaterialTemplate.usf" 170
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOfFieldCommon.usf" 171
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SpeedTreeCommon.usf" 172
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphereCommon.usf" 173
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCommon.usf" 174
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredShadingCommon.usf" 175
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightAccumulator.usf" 176
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SlateVertexShader.usf" 177
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/OneColorShader.usf" 178
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ResolveVertexShader.usf" 179
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ResolvePixelShader.usf" 180
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/VisualizeTexture.usf" 181
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenSpaceReflections.usf" 182
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BRDF.usf" 183
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MonteCarlo.usf" 184
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/FilterVertexShader.usf" 185
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/FilterPixelShader.usf" 186
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeHDR.usf" 187
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramCommon.usf" 188
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/TonemapCommon.usf" 189
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MiniFontCommon.usf" 190
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeBuffer.usf" 191
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessUpscale.usf" 192
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTonemap.usf" 193
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTestImage.usf" 194
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalAA.usf" 195
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalCommon.usf" 196
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSubsurface.usf" 197
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SeparableSSS.usf" 198
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSelectionOutline.usf" 199
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSceneColorFringe.usf" 200
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessNoiseBlur.usf" 201
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMotionBlur.usf" 202
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMobile.usf" 203
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMaterialShaders.usf" 204
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensFlares.usf" 205
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensBlur.usf" 206
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBloom.usf" 207
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHMD.usf" 208
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramReduce.usf" 209
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogram.usf" 210
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessGBufferHints.usf" 211
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessEyeAdaptation.usf" 212
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDownsample.usf" 213
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDOF.usf" 214
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCompositeEditorPrimitives.usf" 215
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCombineLUTs.usf" 216
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBusyWait.usf" 217
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBokehDOF.usf" 218
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/FXAAShader.usf" 219
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/Fxaa3_11.usf" 220
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessPassThrough.usf" 221
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLpvIndirect.usf" 222
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightingCommon.usf" 223
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DynamicLightingCommon.usf" 224
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/IESLightProfilesCommon.usf" 225
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVFinalPass.usf" 226
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVCommon.usf" 227
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredDecal.usf" 228
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbientOcclusion.usf" 229
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbient.usf" 230
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/CubemapCommon.usf" 231
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/VelocityShader.usf" 232
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/Tessellation.usf" 233
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/FlatTessellation.usf" 234
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PNTriangles.usf" 235
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightingShaders.usf" 236
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SHCommon.usf" 237
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionCommon.usf" 238
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightInjectionShaders.usf" 239
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionCommon.usf" 240
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentShadowDepthShaders.usf" 241
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthCommon.usf" 242
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/TiledDeferredLightShaders.usf" 243
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionPixelShader.usf" 244
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowFilteringCommon.usf" 245
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionVertexShader.usf" 246
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthPixelShader.usf" 247
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteVplCommon.usf" 248
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteCommon.usf" 249
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthVertexShader.usf" 250
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyPixelShader.usf" 251
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyVertexShader.usf" 252
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityAccumulatePixelShader.usf" 253
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HZBOcclusion.usf" 254
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/OcclusionQueryVertexShader.usf" 255
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyPixelShader.usf" 256
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyVertexShader.usf" 257
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShaders.usf" 258
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShared.usf" 259
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLightingShared.usf" 260
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentComputeShaders.usf" 261
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightShaftShader.usf" 262
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/StationaryLightOverlapShaders.usf" 263
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightPixelShaders.usf" 264
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightVertexShaders.usf" 265
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVVisualise.usf" 266
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVGeometryVolumeCommon.usf" 267
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVDirectLightInject.usf" 268
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVPropagate.usf" 269
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVBuildGeometryVolume.usf" 270
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_AccumulateVplLists.usf" 271
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_GenerateVplLists.usf" 272
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClearLists.usf" 273
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClear.usf" 274
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightMapDensityShader.usf" 275
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionPixelShader.usf" 276
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionVertexShader.usf" 277
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HdrCustomResolveShaders.usf" 278
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/GPUBenchmark.usf" 279
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/GammaCorrection.usf" 280
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingPixelShader.usf" 281
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingCommon.usf" 282
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/LightmapCommon.usf" 283
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingVertexShader.usf" 284
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogCommon.usf" 285
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogPixelShader.usf" 286
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogVertexShader.usf" 287
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulatePS.usf" 288
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulateVS.usf" 289
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistortApplyScreenPS.usf" 290
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLighting.usf" 291
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldLightingShared.usf" 292
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldAOShared.usf" 293
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLighting.usf" 294
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLightingCompute.usf" 295
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldShadowing.usf" 296
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyPixelShader.usf" 297
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyVertexShader.usf" 298
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/PositionOnlyDepthVertexShader.usf" 299
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/DownsampleDepthPixelShader.usf" 300
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassPixelShader.usf" 301
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassCommon.usf" 302
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexShader.usf" 303
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexCommon.usf" 304
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassTessellationShaders.usf" 305
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecompute.usf" 306
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeCommon.usf" 307
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeInscatter.usf" 308
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphericFogShader.usf" 309
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSortKeyGen.usf" 310
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBoundsShader.usf" 311
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimVisualizeShader.usf" 312
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleInjectionShader.usf" 313
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimulationShader.usf" 314
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleCurveInjectionShader.usf" 315
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldCompositeShaders.usf" 316
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/UpdateTextureShaders.usf" 317
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementColorChannelMaskPixelShader.usf" 318
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementHitProxyPixelShader.usf" 319
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementPixelShader.usf" 320
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ColorUtils.usf" 321
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementVertexShader.usf" 322
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenVertexShader.usf" 323
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenPixelShader.usf" 324
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/RadixSortShaders.usf" 325
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheComputeShader.usf" 326
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/NullPixelShader.usf" 327
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/ClearReplacementShaders.usf" 328
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementTexture2DPreviewPixelShader.usf" 329
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementNormalMapPixelShader.usf" 330
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatepixelshader.usf" 331
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatevertexshader.usf" 332
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintPixelShader.usf" 333
+"C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintVertexShader.usf" 334
+"../../../Engine/Config/Android/AndroidEngine.ini" 335
+"../../../Engine/Config/HTML5/HTML5Engine.ini" 336
+"../../../Engine/Config/IOS/IOSEngine.ini" 337
+"../../../Engine/Config/Linux/LinuxEngine.ini" 338
+"C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc" 339
+"../../../Engine/DerivedDataCache/Compressed.ddp" 340
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 341
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 342
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 343
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 344
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 345
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 346
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 347
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 348
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 349
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 350
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 351
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 352
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 353
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 354
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 355
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 356
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 357
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 358
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 359
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 360
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 361
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 362
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 363
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 364
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 365
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 366
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 367
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 368
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 369
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 370
+"../../../Engine/Content/EngineResources/Black.uasset" 371
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 372
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 373
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 374
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 375
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 376
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 377
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 378
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 379
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 380
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 381
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 382
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 383
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 384
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 385
+"../../../Engine/Content/EngineSounds/Master.uasset" 386
+"../../../Engine/Content/EngineSounds/Music.uasset" 387
+"../../../Engine/Content/EngineSounds/SFX.uasset" 388
+"../../../Engine/Content/EngineSounds/Normal_Attack.uasset" 389
+"../../../Engine/Content/EngineSounds/Special_Attack_PSM.uasset" 390
+"../../../Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset" 391
+"../../../Engine/Content/EngineSounds/Voice.uasset" 392
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 393
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 394
+"../../../Engine/Content/EngineTireTypes/DefaultTireType.uasset" 395
+"../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf" 396
+"../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf" 397
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf" 398
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Black.ttf" 399
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf" 400
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf" 401
+"../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 402
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 403
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 404
+"../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 405
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 406
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset" 407
+"C:/Users/David/AppData/Local/UnrealEngine/4.7/Saved/Config/Windows/SourceControlSettings.ini" 408
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini" 409
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Saved/Config/Windows/SourceControlSettings.ini" 410
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 411
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 412
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 413
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 414
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 415
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 416
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 417
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 418
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 419
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 420
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 421
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 422
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 423
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/CachedAssetRegistry.bin" 424
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 425
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 426
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 427
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 428
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 429
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 430
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 431
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 432
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 433
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 434
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 435
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 436
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 437
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 438
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 439
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 440
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 441
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 442
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 443
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/PaperGameMode.uasset" 444
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/MyHUD.uasset" 445
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/OldStuff/MyCharacter.uasset" 446
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 447
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/MyBall.uasset" 448
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Materials/LevelPrototype.uasset" 449
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/PrototypeTexture.uasset" 450
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 451
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/SplosionPart.uasset" 452
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/FloopMaterial.uasset" 453
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset" 454
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.uasset" 455
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Data/AnimationState.uasset" 456
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/Orbitz.uasset" 457
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Idle_anim.uasset" 458
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_1.uasset" 459
+"../../../Engine/Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 460
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas.uasset" 461
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_2.uasset" 462
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_3.uasset" 463
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_4.uasset" 464
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_5.uasset" 465
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_6.uasset" 466
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_7.uasset" 467
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/IdleAnim/Idle_8.uasset" 468
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Jump_1.uasset" 469
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/CharacterJumping_Sprite.uasset" 470
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/CharacterJumping.uasset" 471
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/planet.uasset" 472
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/planet_3_Sprite.uasset" 473
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/planet_3.uasset" 474
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_anim.uasset" 475
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_1.uasset" 476
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_RunAnimAtlas.uasset" 477
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_10.uasset" 478
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_11.uasset" 479
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_12.uasset" 480
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_13.uasset" 481
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_14.uasset" 482
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_15.uasset" 483
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_16.uasset" 484
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_2.uasset" 485
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_3.uasset" 486
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_4.uasset" 487
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_5.uasset" 488
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_6.uasset" 489
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_7.uasset" 490
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_8.uasset" 491
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/RunAnim/Run_9.uasset" 492
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/PlayerObj.uasset" 493
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 494
+"../../../Engine/Content/BasicShapes/Cube.uasset" 495
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/Thrustersploosh.uasset" 496
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_008DD81D4924A99DF34A8EA4AB9A6__215D56D2AD9D6366B044FEF2960B3A1FD70DAC7D.udd" 497
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_008DD81D4924A99DF34A8EA4AB9A6__A639A953351D71BFA7EE885D410767031AAC6000.udd" 498
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_008DD81D4924A99DF34A8EA4AB9A6__1C7F5CD7D60AC619B55D3C3E7619B999EB48E2B0.udd" 499
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1170EB594A2FF719916DCE8FE7A52__29883429B225B392E54054ACDBF5720FD1DB3656.udd" 500
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1170EB594A2FF719916DCE8FE7A52__65E6C61B38A6E4980AA91DA452575F50EA06605C.udd" 501
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1170EB594A2FF719916DCE8FE7A52__AE0D4F6CFB53211127342A51A4F9254CF69B9EDC.udd" 502
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1170EB594A2FF719916DCE8FE7A52__FFCF8D7DC1E45AA0AC8F6BDAB8359D2CA796FC8D.udd" 503
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/4/MATSM_85DD00DAF10D45C79D4ED0306AF2628B_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF20E81163__DEFD8468A31376363D2BDF4C24039F8FF70F5ACD.udd" 504
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E31A16AD4C97C4587824AD8E9E5CB__4508AF903B4A303F119460E3368C8C4251FC5E91.udd" 505
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E31A16AD4C97C4587824AD8E9E5CB__9A242F04F1E4DE46808A58D9FB069CB09E1E5DD9.udd" 506
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E31A16AD4C97C4587824AD8E9E5CB__C79D834DC1CDD8507C9507D6EE472437628A9134.udd" 507
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_4C7E98354598E5E1634700A7577D2__BA1D7B2F820EC641894ED2B35840C83F0A9114AD.udd" 508
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_0907494D4DD952226264C9AF62D35__8EA0446A74E541EFB39DA6B4976EB652DC5520FC.udd" 509
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1170EB594A2FF719916DCE8FE7A52__7C8CBA8638D68AE9F7E802807C1705E2A83AFAAB.udd" 510
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/3/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_0907494D4DD952226264C9AF62D35__80FAE15D2A165CED2A41CC96F87F40B3AF4367B6.udd" 511
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_0907494D4DD952226264C9AF62D35__88BBFAE065DB5295F04D41966CC5502ABAFE7A2C.udd" 512
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_0907494D4DD952226264C9AF62D35__4E3964BE8D53C77C53A00E5651F65D03044B9D40.udd" 513
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_0907494D4DD952226264C9AF62D35__1E57DFE4DEB1F51D39CC3A0DA168B68622E759EF.udd" 514
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/MATSM_85DD00DAF10D45C79D4ED0306AF2628B_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF00814D9B__00679294537487F33437A204F8D04CFDB4455B59.udd" 515
+"../../../Engine/Content/Maps/Entry.umap" 516
+"../../../Engine/Content/EngineMaterials/DefaultNormal.uasset" 517
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/2/WorkerOutputOnly.out" 518
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/5/WorkerOutputOnly.out" 519
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/0/WorkerOutputOnly.out" 520
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/3/WorkerOutputOnly.out" 521
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/1/WorkerOutputOnly.out" 522
+"C:/Users/David/Documents/Unreal Projects/MySpaceyGame/Intermediate/Shaders/WorkingDirectory/6744/4/WorkerOutputOnly.out" 523
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/My2DMap.umap" 524
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/Asteroid1.uasset" 525
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Platform.uasset" 526
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DBackgroundBlockAtlas.uasset" 527
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Prototypingsprite.uasset" 528
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/Nebulas_in_space_Sprite.uasset" 529
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/Nebulas_in_space.uasset" 530
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_81EDF483478458926018D2982572C__AAE0D56CBD80EE8FAC50DF7ABBEC7C2BB6C86E40.udd" 531
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__C45113BEFFECF0F6E21BCBF894AAD9396E0DD8D7.udd" 532
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_81EDF483478458926018D2982572C__453A47D7EF625416CF415191CB6F4A822DD765A4.udd" 533
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__098777382DFEF9B1DE487C7E77FA522D3D964E7A.udd" 534
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_81EDF483478458926018D2982572C__BC2AF247F633AC04AC6F04AA30FC6C60A050507F.udd" 535
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_81EDF483478458926018D2982572C__87E2A0B8705A6BF7B32C5918CAA56ADC8EE521D8.udd" 536
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_81EDF483478458926018D2982572C__EBCD282484B2597701FDCE7A0A246572D1BED6A2.udd" 537
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__72C3F4997DDCF1161570CF2BAF143C1E98EF5EDD.udd" 538
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/3/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__9B6B8AA7D3C96CE535019C00498E404D86428A85.udd" 539
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__BB38C7FB0D3B4DE84B342318850778485DFD5313.udd" 540
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E861CCF3476F74A4C2F70CBC3D847__2ED6E6DDCBB63BE3B2F03F9A2D46E907DF71197B.udd" 541
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_8F5B384B43935062E05191892134DC2F__1_1_13075_0.udd" 542
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/3/2/MATSM_85DD00DAF10D45C79D4ED0306AF2628B_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF20E81163__457F7481E2EB6ABE93DDA795E1E13CA2EE67BCE1.udd" 543
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 544
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/PrototypeTexture_Sprite.uasset" 545
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/Jump_1.uasset" 546
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_RunAnimAtlas_Sprite_0.uasset" 547
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_7.uasset" 548
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_6.uasset" 549
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_5.uasset" 550
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_4.uasset" 551
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_3.uasset" 552
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_2.uasset" 553
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_1.uasset" 554
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DCharacter_IdleAnimAtlas_Sprite_0.uasset" 555
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DBackground_Sprite.uasset" 556
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DBackgroundTile.uasset" 557
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Textures/2DBackground.uasset" 558
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_28D916494F9D81FE0470089B01047__F2AE0718C5E692CA59F66FD7E29A84008DEA5ECD.udd" 559
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_28D916494F9D81FE0470089B01047__3B986D309A96BE5567B83B2852F25CB6C8E50CFA.udd" 560
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_4.uasset" 561
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_3_5.uasset" 562
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_3_4.uasset" 563
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_3.uasset" 564
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_2_4.uasset" 565
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_2_3.uasset" 566
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x_2.uasset" 567
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_4.uasset" 568
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_3_5.uasset" 569
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_3_4.uasset" 570
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_3.uasset" 571
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_2_4.uasset" 572
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_2_3.uasset" 573
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_28D916494F9D81FE0470089B01047__14A559EBD0CD06086E56D578A00203FD800C2163.udd" 574
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2_2.uasset" 575
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_299A16BA45FAD6E63884EE9D65D77__1DBC4A3475B446AAA4AC7357D0F027D05F18B2B4.udd" 576
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/Run_x2.uasset" 577
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_299A16BA45FAD6E63884EE9D65D77__BEC43309606A79CB8DB96DCAC4A3A5D2651AB92C.udd" 578
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Sprites/2DBackground_Sprite.uasset" 579
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/Orbitz2.uasset" 580
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_299A16BA45FAD6E63884EE9D65D77__24BB6F9A82688A1CB5563E090B39735AA7D6B559.udd" 581
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/LightPart.uasset" 582
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/0/MATSM_85DD00DAF10D45C79D4ED0306AF2628B_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF00814D9B__12E73CBECE54D64AB87961E9BB8B9A38B545FCCE.udd" 583
+"C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_299A16BA45FAD6E63884EE9D65D77__F7CA436E39721023D0E69902FBA5B0ED4BC29C0E.udd" 584
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/Flooppp.uasset" 585
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Particles/DeflectionPart.uasset" 586
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/OldStuff/AmmoSpawner.uasset" 587
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/OldStuff/AmmoBox.uasset" 588
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/Flooppp.uasset" 589
+"../../../../../../Users/David/Documents/Unreal Projects/MySpaceyGame/Content/Blueprints/AmmoSpawner.uasset" 590
